@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5&4b*c3$3x*s9d4t%rbs7m^bfvl4c3de(^z@memjg9qi467*x)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['riversidemens-soccer.up.railway.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -123,12 +123,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
-STATICFILES_DIRS = {
-    os.path.join(BASE_DIR,'static')
-}
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static'),
+]
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
