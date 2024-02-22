@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5&4b*c3$3x*s9d4t%rbs7m^bfvl4c3de(^z@memjg9qi467*x)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['riversidemens-soccer.up.railway.app']
 
 
 # Application definition
