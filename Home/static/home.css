@@ -3,7 +3,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
     color: white;
-    max-width:100%;
+    width: 100vw;
+    height: 100vh;
     
 }
 .top-banner img{
