@@ -10,7 +10,7 @@ body {
   width: 100%;
   border-radius: 5px;
   box-shadow: 2px 0px 5px rgb(37, 37, 37);
-  height: 200px;
+  height: 5%;
 }
 
 
@@ -41,7 +41,6 @@ body {
   height: 50px;
   float:right;
   position: relative;
-  /* top:0.1px; */
   bottom: 5px;
   border-radius: 10%;
   margin-right:15px;
@@ -51,7 +50,6 @@ body {
   height: 50px;
   float:right;
   position: relative;
-  /* top:0.1px; */
   bottom: 5px;
   border-radius: 30%;
   margin-right:15px;
@@ -61,13 +59,11 @@ body {
   height: 50px;
   float:right;
   position: relative;
-  /* top:0.1px; */
   bottom: 5px;
   
 }
 #main-nav ul {
     display: inline;
-    /* width: 100%; */
     margin-left: 150px;
     
 }
@@ -75,7 +71,6 @@ body {
 #main-nav li {
     list-style-type: none;
     padding: 15px 20px;
-    /* width: 100%; */
     text-align: center;
     font: 2em sans-serif;
     display: inline;
@@ -102,7 +97,6 @@ body {
     font-weight: bolder;
 }
 
-/* Media Query */
 /* Dropdown Button */
 .dropdown:hover{
   color: rgb(228, 18, 18);
@@ -117,7 +111,7 @@ body {
   display: none;
   position: absolute;
   margin-top: 10px;
-  right:387px;
+  right:390px;
   font-size: 16px;
   background-color: #474747;
   width: 100px;
@@ -181,32 +175,6 @@ body {
   display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
 /* Caption text */
 .text {
@@ -257,61 +225,6 @@ body {
 @keyframes fade {
   from {opacity: .8}
   to {opacity: 1}
-}
-
-
-.box{
-  text-align: center;
-  width: 400px;
-  height: 300px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgb(37, 37, 37);
-  margin-top: 20px;
-}
-#NEWS{
-  position: absolute;
-  left:20%;
-}
-/* #GAME{
-  position: absolute;
-  left:400px;
-} */
-#SCHEDULE{
-  position: absolute;
-  right: 20%;
-}
-
-.Ad-left{
-  text-align: center;
-  width: 200px;
-  position: absolute;
-  height: 600px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgb(37, 37, 37);
-  left:5px;
-  top:50%;
-}
-.Ad-right{
-  text-align: center;
-  width: 200px;
-  position: absolute;
-  height: 600px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgb(37, 37, 37);
-  right:5px;
-  top:50%;
-
-}
-
-.Ad-center{
-  text-align: center;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgb(37, 37, 37);
-  margin-top: 25%;
 }
 
 
@@ -392,38 +305,29 @@ top: 50px;
   width: 100%;
   background-color: royalblue;
   height: 100px;
-  margin-top: 100%;
+  margin-top: 5%;
+  text-align: center;
 }
 .footer ul{
   display: inline;
-  max-width: 100%;
-  margin-left: 25%;
 }
 
 .footer li{
   list-style-type: none;
   padding: 15px 20px;
-  max-width: 100%;
-  text-align: center;
   font: 2em sans-serif;
   display: inline;
-  
 }
 .footer img{
   width: 50px;
   height: 50px;
   position: relative;
   top:25%;
+  
 }
 /* Media Query */
 
 @media only screen and (max-width: 600px) {
-  .Ad-left, .Ad-right{
-    visibility: hidden;
-  }
-  .Ad-center{
-    width: 75vw;
-  }
   #main-nav {
     width: 100%;
     position: sticky;
